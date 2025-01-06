@@ -6,6 +6,7 @@
 body{
   overflow-x: hidden;
   scrollbar-width: 10px;
+  cursor: none;
 }
 .header{
   display: flex;
@@ -84,3 +85,19 @@ color: rgb(178, 178, 178);
   background-color: rgb(149, 149, 149);
 
 }
+
+.body{
+  height: 100vh;
+  position: relative;
+}
+.custom-cursor{
+  height: 30px;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0.671);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  border-radius: 50%;
+}
+
